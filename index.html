@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yearly Calendar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <!-- calendar wrapper  -->
+      <div class="calendar-wrapper">
+        <!-- calendar heading  -->
+        <h1 id="month-title"></h1>
+        <!-- calender container  -->
+        <div id="calendar-container">
+          <!-- month switch button  -->
+          <button id="previous-btn" class="btn">Previous</button>
+          <button id="next-btn" class="btn">Next</button>
+          <!-- caledar table  -->
+          <table id="calendar">
+            <thead>
+              <tr>
+                <th>SUN</th>
+                <th>MON</th>
+                <th>TUE</th>
+                <th>WED</th>
+                <th>THU</th>
+                <th class="holiday">FRI</th>
+                <th class="holiday">SAT</th>
+              </tr>
+            </thead>
+            <tbody id="calendar-body"></tbody>
+          </table>
+        </div>
+        <h3>Code With Kawsar</h3>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
